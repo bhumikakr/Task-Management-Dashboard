@@ -1,0 +1,11 @@
+.app-container {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 77vh;
+    padding: 10px;
+    overflow: hidden;
+}

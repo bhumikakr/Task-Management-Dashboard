@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  @media (max-width: 600px) {
+    .spacer {
+      display: none;
+    }
+  
+    .title {
+      font-size: 1.0rem;
+    }
+  
+    button {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    button {
+      display: inline-block;
+    }
+  
+    .menu-icon {
+      display: none;
+    }
+  }
+  

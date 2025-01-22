@@ -1,0 +1,16 @@
+.mat-form-field input.mat-input-element {
+    line-height: 10px;
+    font-size: 10px;
+    padding: 0 0 0 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+    width: 100%;
+}
+
+button {
+    margin-left: 15px;
+}
