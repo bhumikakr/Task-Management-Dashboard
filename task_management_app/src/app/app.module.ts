@@ -23,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { FooterComponent } from './shared/footer/footer.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     FormsModule,
     BrowserAnimationsModule,
     DragDropModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    HttpClientModule
   ],
   providers: [TaskService],
   bootstrap: [AppComponent]
