@@ -6,6 +6,14 @@
 
 This guide provides the steps required to run an Angular application on your local machine. The instructions assume you have Node.js and npm installed.
 
+## Steps to Run the JSON Server
+
+### 1. Start json-server
+
+```bash
+json-server --watch db.json --port 3000
+```
+
 ## Steps to Run the Angular App
 
 ### 1. Download the Angular App
