@@ -1,60 +1,44 @@
 {
-    "tasks": [
-      {
-        "id": 1,
-        "title": "Design Homepage UI",
-        "description": "Create the initial design for the homepage, including the header, footer, and main content layout.",
-        "priority": "High",
-        "dueDate": "2025-02-01",
-        "status": "In Progress",
-        "assignedTo": "John Doe",
-        "createdAt": "2025-01-20T08:30:00Z",
-        "updatedAt": "2025-01-21T09:00:00Z"
-      },
-      {
-        "id": 2,
-        "title": "Develop API for User Authentication",
-        "description": "Build the REST API for user login, registration, and JWT token management.",
-        "priority": "High",
-        "dueDate": "2025-02-10",
-        "status": "Pending",
-        "assignedTo": "Jane Smith",
-        "createdAt": "2025-01-18T10:15:00Z",
-        "updatedAt": "2025-01-19T11:00:00Z"
-      },
-      {
-        "id": 3,
-        "title": "Write Documentation for Project Setup",
-        "description": "Prepare the documentation to help new developers set up the project locally, including environment setup and dependencies.",
-        "priority": "Medium",
-        "dueDate": "2025-02-15",
-        "status": "Pending",
-        "assignedTo": "Mark Lee",
-        "createdAt": "2025-01-21T12:00:00Z",
-        "updatedAt": "2025-01-21T12:30:00Z"
-      },
-      {
-        "id": 4,
-        "title": "Test Payment Integration",
-        "description": "Ensure that the payment gateway is correctly integrated and functioning by performing manual and automated tests.",
-        "priority": "High",
-        "dueDate": "2025-01-28",
-        "status": "In Progress",
-        "assignedTo": "Alice Brown",
-        "createdAt": "2025-01-15T14:00:00Z",
-        "updatedAt": "2025-01-20T16:00:00Z"
-      },
-      {
-        "id": 5,
-        "title": "Set Up Continuous Integration Pipeline",
-        "description": "Configure Jenkins or GitHub Actions to automate the build and deployment process.",
-        "priority": "Low",
-        "dueDate": "2025-02-20",
-        "status": "Not Started",
-        "assignedTo": "David Green",
-        "createdAt": "2025-01-22T15:00:00Z",
-        "updatedAt": "2025-01-22T15:15:00Z"
-      }
-    ]
-  }
-  
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Fix Login Bug",
+      "description": "Fix issue preventing user logins.",
+      "priority": "High",
+      "dueDate": "2025-01-25",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "title": "Update API Documentation",
+      "description": "Add new user profile endpoints.",
+      "priority": "Medium",
+      "dueDate": "2025-02-01",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "title": "Database Optimization",
+      "description": "Optimize slow queries and indexes.",
+      "priority": "High",
+      "dueDate": "2025-02-05",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "title": "Implement Two-Factor Authentication",
+      "description": "Add two-factor authentication for logins.",
+      "priority": "High",
+      "dueDate": "2025-02-10",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "title": "User Profile UI Redesign",
+      "description": "Redesign user profile page for better UX.",
+      "priority": "Medium",
+      "dueDate": "2025-02-20",
+      "status": "Completed"
+    }
+  ]
+}
