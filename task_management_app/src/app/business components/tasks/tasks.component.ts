@@ -22,7 +22,9 @@ export class TasksComponent implements OnInit {
   constructor(private taskService: TaskService, public dialog: MatDialog) {}
 
   ngOnInit(): void {
-    this.tasksdata.data = this.taskService.getTasks();
+    this.taskService.getTasks().subscribe((tasks: Task[]) => {
+      this.tasksdata.data = tasks;
+    });
     this.tasksdata.sort = this.sort;
   }
 
